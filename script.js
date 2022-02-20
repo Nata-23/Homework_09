@@ -17,9 +17,9 @@ class Employee {
     return Math.round(((this.salary * 12) / 365) * this.numberOfWorkDays);
   }
 }
-const Employee_1 = new Employee("Ivan", "Ivanov", 25, "junior", 500);
-const Employee_2 = new Employee("Petr", "Petrov", 35, "senior", 6000);
-Employee_1.fullName;
-Employee_2.fullName;
-console.log(Employee_1.countSalary());
-console.log(Employee_2.countSalary());
+const employee1 = new Employee("Ivan", "Ivanov", 25, "junior", 500);
+const employee2 = new Employee("Petr", "Petrov", 35, "senior", 6000);
+employee1.fullName;
+employee2.fullName;
+console.log(employee1.countSalary());
+console.log(employee2.countSalary());
